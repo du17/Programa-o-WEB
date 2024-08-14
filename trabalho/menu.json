@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Pizza Margherita",
+        "description": "Molho de tomate, mussarela e manjericão.",
+        "price": 25.99
+    },
+    {
+        "name": "Pizza Pepperoni",
+        "description": "Molho de tomate, mussarela e pepperoni.",
+        "price": 29.99
+    },
+    {
+        "name": "Pizza Vegetariana",
+        "description": "Molho de tomate, mussarela, pimentão, cebola e azeitonas.",
+        "price": 27.99
+    }
+]
