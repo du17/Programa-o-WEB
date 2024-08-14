@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Dom lista de itens</title>
+	<script>
+		function gerarLista(){
+		let vet= ["maçã", "banana","pera"];
+		let novaLista=document.createElement("ol");
+		for (i=0; i<vet.length; i++){
+			let novoItem =document.createElement("li");
+			novoItem.textContent = vet[i];
+			novaLista.append(novoItem);
+		}
+		bd=document.getElementById("principal");
+		bd.append(novaLista);
+	}
+	</script>
+</head>
+<body id ="principal">
+	<button type="button" onclick="gerarLista()">Gerar lista</button>
+</body>
+</html>

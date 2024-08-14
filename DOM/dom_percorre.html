@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Dom lista de itens</title>
+	<script>
+		function gerarLista(){
+			let vet= ["maçã", "banana","pera"];
+			let novaLista=document.createElement("ol");
+			for (i=0; i<vet.length; i++){
+				let novoItem =document.createElement("li");
+				novoItem.textContent=vet[i];
+				novaLista.append(novoItem);
+			}
+			bd=document.getElementById("principal");
+			bd.append(novaLista);
+		}
+		function obterTodos(){
+			let lista=document.querySelector("ol");
+			for (i=0;i<3;i++){
+					document.write(lista.children[i].textContent+"<br>");
+			}
+		}
+		function obterPrimeira(){
+			let fruta=document.querySelector("ol").firstChild.textContent;
+			document.write(fruta);
+		}
+		function obterUltima(){
+			let fruta=document.querySelector("ol").lastChild.textContent;
+			document.write(fruta);
+		}
+
+	</script>
+</head>
+<body id ="principal" onload="gerarLista()">
+	<button type="button" onclick="obterTodos()">lista frutas</button>	
+	<button type="button" onclick="obterPrimeira()">lista primeira</button>
+	<button type="button" onclick="obterUltima()">lista ultima</button>
+</body>
+</html>

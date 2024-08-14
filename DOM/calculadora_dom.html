@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Dom lista de itens</title>
+	<script>
+		function calcular() {
+		  var entrada= document.getElementById('numero').value;
+		  var resultado= eval(entrada);
+		  document.getElementById('resultado').innerHTML = resultado;
+		}
+	</script>
+</head>
+<body>
+	Calculadora: <input type="text" id="numero" value="2*2+1">
+	<input type=button value="Calcular" onClick="calcular()"><br>
+	Resultado: <span id="resultado">clique em calcular</span>
+</body>
+</html>
+

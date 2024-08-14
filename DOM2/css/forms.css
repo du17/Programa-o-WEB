@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+#navbar{
+  width: 100%;
+  color: #eee;
+  background: #111;
+  position: fixed;
+  height: 45px;
+  font-size: 2rem;
+  padding: 10px; 
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+#headline{
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  /*padding-bottom: 80px;*/
+}
+
+#newPacient{
+  padding: 50px;
+  background: #222;
+  color: #eee;
+  width: 100%;
+  align-items: center;
+}
+
+input{
+  width: 200px;
+  padding: 10px;
+  color: black;
+  margin-left: 100px;
+  margin-top: 10px;
+  border-radius: 30px;
+  border: 1px solid;
+}
+
+.enviar{
+  background-color: #5159cd;
+  height: 40px;
+  width: 100px;
+  border-radius: 30px;
+  border: 1px solid;
+  color: white;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.enviar:hover{
+  background-color: #7dd5f2;
+  color: black;
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td{
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+/*th{
+  background: #545eee;
+}*/
+
+tr:hover{
+  background: rgb(80, 168, 255);
+}

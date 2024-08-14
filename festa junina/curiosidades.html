@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="../css/mobile.css">
+    <title>Festa Junina</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="navbar-container">
+            <a href="index.html"><img id ="logo" src="../img/logo.jpeg" alt="logo"></a>
+            <ul id="navbar-items">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="simpatias.html">Simpatias</a></li>
+                <li><a href="curiosidades.html">Curiosidades</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div id="container">
+        <h1>Curiosidades das Festas Juninas</h1>
+        <form id="quizForm">
+            <div id="question">
+                <label>1. A festa junina é celebrada somente no Brasil. (Verdadeiro ou Falso)</label><br>
+                <input type="radio" name="q1" value="falso"> Falso<br>
+                <input type="radio" name="q1" value="verdadeiro"> Verdadeiro<br>
+            </div>
+            <div id="question">
+                <label>2. A dança típica das festas juninas é a quadrilha. (Verdadeiro ou Falso)</label><br>
+                <input type="radio" name="q2" value="verdadeiro"> Verdadeiro<br>
+                <input type="radio" name="q2" value="falso"> Falso<br>
+            </div>
+            <div id="question">
+                <label>3. O milho é um dos alimentos mais tradicionais das festas juninas. (Verdadeiro ou Falso)</label><br>
+                <input type="radio" name="q3" value="verdadeiro"> Verdadeiro<br>
+                <input type="radio" name="q3" value="falso"> Falso<br>
+            </div>
+            <button type="button" onclick="computeScore()">Submeter</button>
+        </form>
+        <p id="result"></p>
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>

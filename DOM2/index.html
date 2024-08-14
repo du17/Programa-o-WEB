@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  type="text/css" href="./css/forms.css" media="screen">
+    <title>clinica</title>
+</head>
+<body>
+    <nav id="navbar">
+        <div id="headline">teste da clinica</div>
+    </nav>
+
+    <section id="newPacient">
+        <input id="info" type="text" class="nome" placeholder="Nome">
+        <input id="info" type="number" class="peso" placeholder="Peso (kg)">
+        <input id="info" type="number" class="altura" placeholder="Altura (M)">
+        <input id="info" type="number" class="gordura" placeholder="Gordura (%)">
+        <!--input type="submit" class="enviar" value="Enviar"-->
+        <button type="button" onclick="addDisplay()" class="enviar">Enviar</button>
+        <button type="button" onclick="loadDoc()" class="enviar">Carregar</button>
+    </section>
+
+    <section>
+        <table id="data">
+            <tr>
+                <th>Nome</th>
+                <th>Peso</th>
+                <th>Altura</th>
+                <th>Gordura</th>
+                <th>IMC</th>
+            </tr>
+        </table>
+    </section>
+    
+    <script src = "./js/forms.js"></script>
+</body>
+</html>

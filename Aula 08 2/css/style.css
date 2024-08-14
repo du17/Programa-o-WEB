@@ -1,0 +1,105 @@
+header#topo {
+    font-size: 2em; 
+    background-color: black;
+    color: white;
+    padding: 10px; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  
+  #container {
+    max-width: 1500px; 
+    margin: 0 auto; 
+    border: 5px solid black;
+    padding: 50px;
+    margin-bottom: 20px; 
+  }
+  
+  .display-block {
+    display: block;
+    margin-bottom: 20px; 
+  }
+  
+  #form {
+    width: 100%; 
+  }
+  
+  #form label {
+    display: block;
+    font-weight: bold; 
+    margin-bottom: 5px; 
+  }
+  
+  #form input {
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+  }
+  #data{
+    width: 102%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    display: block;
+    margin-bottom: 20px;   
+  }
+  #country{
+    width: 102%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    display: block;
+    margin-bottom: 20px;   
+  }
+  #city{
+    width: 102%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    display: block;
+    margin-bottom: 00px;   
+  }
+  #state{
+    width: 102%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    display: block;
+    margin-bottom: 20px;   
+  }
+  
+  .inline-block {
+    display: inline-block;
+    width: calc(30% - 10px); 
+    margin-right: 10px; 
+  }
+  
+  #adicionar-btn, #carregar-btn {
+    background-color: rgb(87, 178, 238);
+    color: white;
+    padding: 15px 30px; 
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); 
+  }
+  
+  #adicionar-btn:hover, #carregar-btn:hover {
+    background-color: rgb(66, 121, 172);
+  }
+  #rodape {
+    background-color: black;
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    margin-top: 20px; 
+  }
+  
+  
+  

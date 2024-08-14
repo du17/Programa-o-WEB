@@ -1,0 +1,50 @@
+#navbar {
+    height: 257px;
+    position: initial;
+    font-size: 1rem;
+}
+
+#navbar-container {
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+#navbar-items {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+}
+
+#navbar-items li:nth-child(even) {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+#showcase {
+    height: 80vh;
+    padding: 0 30px;
+}
+
+#logo{
+    width: 20%;
+    margin-left: 145px;
+}
+
+/*curiosidades*/
+
+.container {
+    padding: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+button {
+    padding: 12px;
+    font-size: 18px;
+}
+
+#result {
+    font-size: 16px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitos sobre a Dengue</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="/js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div id="headline">Mitos e Verdades sobre a Dengue</div>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="sintomas.html">Sintomas</a>
+        <a href="mitos.html">Mitos</a>
+        <a href="sobre.html">Sobre</a>
+    </nav>
+    <main>
+        <div id="container">
+        <form id="quizForm">
+            <div id="question">
+            <p>1. A dengue é transmitida apenas pelo mosquito Aedes aegypti.</p>
+            <label><input type="radio" name="q1" value="verdadeiro"> Verdade</label>
+            <br>
+            <label><input type="radio" name="q1" value="falso"> Mito</label>
+            </div>
+            
+            <div id="question">
+            <p>2. Água sanitária pode matar as larvas do mosquito da dengue.</p>
+            <label><input type="radio" name="q2" value="verdadeiro"> Verdade</label>
+            <br>
+            <label><input type="radio" name="q2" value="mito"> Mito</label>
+            </div>
+            
+            <div id="question">
+            <p>3. Só é possível pegar dengue uma vez na vida.</p>
+            <label><input type="radio" name="q3" value="verdadeiro"> Verdade</label>
+            <br>
+            <label><input type="radio" name="q3" value="mito"> Mito</label>
+            </div>
+            
+            <button type="button" onclick="verificarRespostas()">Verificar</button>
+        </form>
+        <p id="resultado"></p>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Desenvolvido por Eduarda Machado</p>
+    </footer>
+</body>
+</html>

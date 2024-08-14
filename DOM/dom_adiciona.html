@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Dom lista de itens</title>
+	<script>
+		
+		function adicionaTexto(){
+			let p = document.createElement("p");
+			p.textContent="isto é um teste";
+			document.body.append(p);
+		}
+	</script>
+</head>
+<body id ="principal">
+	<button type="button" onclick="adicionaTexto()">adiciona elemento</button>	
+</body>
+</html>

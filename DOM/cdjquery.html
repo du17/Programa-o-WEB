@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cátalogo de CDs</title>
+		<meta charset="utf-8">
+		<style>
+		 tr, td {border: solid thin;}
+		</style>
+		 <script src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1>Catálogo de CDs</h1>
+		<button type="button" id="loadQuiz">Carregar CD</button>
+		<br>
+		<div id="demo"></div>
+
+		<script type="text/javascript">
+		
+         $(document).ready(function() {
+           
+            $("#loadQuiz").click(function(event){
+               $.getJSON('cd_catalog.json', function(data) {
+               	//carrega cd
+               	let cd = data.CATALOG.CDS;
+               	//monta o catalogo
+                  let catalogo=$("<TABLE>");
+
+               	for (i=0; i < cd.length; i++){
+               		//monta lista de  cds
+               	   umcd=$("<tr>");
+                     titulo = $("<td>").html(cd[i].TITLE);
+                     artista = $("<td>").html(cd[i].ARTIST);
+                     umcd.append(titulo);
+                     umcd.append(artista);
+                     catalogo.append(umcd);
+               		//mostra na pagina
+					       $("#demo").append(catalogo);
+               	}  
+               });
+
+            });
+     
+  			});
+	</script>
+	</body>
+</html>

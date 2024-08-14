@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header id="topo">
+        Formulário  
+    </header>
+    <form id="container">
+         <div id="form" class="display-block">
+            <label for="Nome">Nome:</label>
+            <input type="text" id="nome" name="nome" />
+        </div>
+        <div id="form" class="inline-block">
+            <label for="Data">Data:</label>
+            <input type="date" id="data" name="data" />
+        </div>
+
+        <label for="country"></label>
+        <select id="country" name="country"></select>
+        
+        <label for="state"></label>
+        <select id="state" name="state" disabled>
+            <option value="">Escolha o país primeiro</option>
+        </select>
+        <label for="city"></label>
+        <select id="city" name="city" disabled>
+            <option value="">Escolha o estado primeiro</option>
+        </select>
+        <br><br>
+        <div id="form" class="inline-block">
+            <label for="Bairro"> Bairro:</label>
+            <input type="text" id="bairro" name="bairro" placeholder="Bairro" /> 
+        </div>
+        <br>
+        <div id="form" class="inline-block">
+            <label for="Rua"> Rua:</label>
+            <input type="text" id="rua" name="rua" placeholder="Rua" /> 
+        </div>
+    </form>
+    <footer id="rodape">
+        <br>
+        Feito por Ester Cattaneo <br>
+        Contato: ester.cattaneo@aluno.ifsp.edu.br
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>
