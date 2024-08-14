@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+body {
+    /*background: #eee;*/
+    background: linear-gradient(to right, #1d66ee, #b85cff);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#logo{
+  width: 7%;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  border-radius: 150px;
+}
+
+#navbar {
+  width: 100%;
+  background: #111;
+  color: #eee;
+  height: 80px;
+  position: fixed;
+}
+
+#navbar-container {
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*titulos*/
+#headline {
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 50px;
+  letter-spacing: 2px;
+}
+
+/*rodapé*/
+#footer{
+  /*margin-top: 270px;
+  color: #222;
+  background: #eee;*/
+  padding: 30px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+#navbar-items {
+  list-style: none;
+  display: flex;
+}
+
+#navbar-items li {
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#showcase{
+  background-color: rgba(0, 0, 0);
+  background-blend-mode: color;
+  background: url('/img/fundo3.jpeg') no-repeat center center/cover;
+    height: 100vh;
+  display: flex;
+  color: #000000;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#showcase-contanier h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+#showcase p{
+  font-size: 1.5rem;
+  padding: 7px 0;
+  font-weight: bold;
+}
+
+/*mascote*/
+
+#mascote{
+    width: 100%;
+    padding: 50px;
+}
+
+img{
+    width: 20%;
+}
+
+/*listinha*/
+
+#esportes-populares{
+    width: 100%;
+    background: #222;
+    color: #eee;
+    padding: 50px;
+}
+
+#esportes-populares ul{
+    columns: 3;
+}
+  
+#esportes-populares h1{
+    margin-bottom: 100px;
+}
+  
+#esportes-populares li{
+    margin-left: 150px;
+    margin-bottom: 12px;
+}
+
+/*sobre*/
+#about{
+  padding: 50px;
+  color: #eee;
+  background: #222;
+  width: 100%;
+}
+
+.about-contanier{
+  flex-direction: column;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 80%;
+}
+
+.persons{
+  display: flex;
+  border-radius: 5px;
+  background: #333;
+  font-size: 1.2rem;
+  align-items: center;
+  padding: 15px;
+  margin: 15px 0;
+}
+
+.persons .perfil{
+  margin: 0 30px;
+  height: 200px;
+  width: auto;
+  border-radius: 50%;
+}
+
+/*competicoes*/
+
+#container{
+    background-blend-mode: color;
+    background: url('/img/fundo2.avif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+}
+
+#quiz{
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 120px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#question {
+  margin-bottom: 15px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  color: white;
+  background-color: #0d3ce5;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3943af;
+}
+
+#result {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 18px;
+  text-align: center;
+  color: #000000;
+}
+
+/*medalhas*/
+
+main{
+    background-blend-mode: color;
+    background: url('/img/fundo9.avif') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+}
+
+#medalha-tabela {
+    max-width: 800px;
+    margin: 0 auto;
+    max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 120px;
+}
+
+#medalha-tabela h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #0a0a0a;
+}
